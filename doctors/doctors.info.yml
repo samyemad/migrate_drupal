@@ -1,0 +1,5 @@
+name: 'doctors'
+type: module
+description: 'doctors module'
+core_version_requirement: ^8 || ^9
+package: 'Custom'

@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains doctors.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function doctors_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the doctors module.
+    case 'help.page.doctors':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('doctors module') . '</p>';
+      return $output;
+
+    default:
+  }
+}

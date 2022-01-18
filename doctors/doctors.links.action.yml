@@ -1,0 +1,5 @@
+entity.doctors.add_form:
+  route_name: entity.doctors.add_form
+  title: 'Add Doctors'
+  appears_on:
+    - entity.doctors.collection

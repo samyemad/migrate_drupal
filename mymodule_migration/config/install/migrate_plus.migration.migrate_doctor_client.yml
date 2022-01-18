@@ -1,0 +1,18 @@
+id: migrate_doctor_client
+label: 'Client Doctor'
+migration_group: doctormigrate
+source:
+  plugin: migrate_doctor_client
+  key: migrate
+process:
+  uuid: id
+  id: id
+  langcode: api_token
+  status: status
+  name:
+    - plugin: name_switch
+      token: 'imported'
+      source: name
+  email: email
+destination:
+  plugin: 'entity:doctors'

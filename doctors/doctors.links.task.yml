@@ -1,0 +1,21 @@
+# Doctors routing definition
+doctors.settings_tab:
+  route_name: doctors.settings
+  title: 'Settings'
+  base_route: doctors.settings
+
+entity.doctors.canonical:
+  route_name: entity.doctors.canonical
+  base_route: entity.doctors.canonical
+  title: 'View'
+
+entity.doctors.edit_form:
+  route_name: entity.doctors.edit_form
+  base_route: entity.doctors.canonical
+  title: 'Edit'
+
+entity.doctors.delete_form:
+  route_name:  entity.doctors.delete_form
+  base_route:  entity.doctors.canonical
+  title: Delete
+  weight: 10

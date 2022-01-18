@@ -1,0 +1,20 @@
+add doctors entities:
+  title: 'Create new Doctors entities'
+
+administer doctors entities:
+  title: 'Administer Doctors entities'
+  description: 'Allow to access the administration form to configure Doctors entities.'
+  restrict access: true
+
+delete doctors entities:
+  title: 'Delete Doctors entities'
+
+edit doctors entities:
+  title: 'Edit Doctors entities'
+
+view published doctors entities:
+  title: 'View published Doctors entities'
+
+view unpublished doctors entities:
+  title: 'View unpublished Doctors entities'
+

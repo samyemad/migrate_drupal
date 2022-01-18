@@ -1,0 +1,14 @@
+
+# Doctors menu items definition
+entity.doctors.collection:
+  title: 'Doctors list'
+  route_name: entity.doctors.collection
+  description: 'List Doctors entities'
+  parent: system.admin_structure
+  weight: 100
+
+doctors.admin.structure.settings:
+  title: 'Doctors settings'
+  description: 'Configure Doctors entities'
+  route_name: doctors.settings
+  parent: system.admin_structure

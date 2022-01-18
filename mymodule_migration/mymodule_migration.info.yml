@@ -1,0 +1,9 @@
+name: My Module Migrations
+type: module
+description: 'My Module Migrations'
+package: custom
+core_version_requirement: ^8 || ^9
+dependencies:
+  - migrate
+  - migrate_plus
+  - migrate_tools
